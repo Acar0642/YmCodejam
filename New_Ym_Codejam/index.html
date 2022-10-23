@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta name="viewport" content="width=device-width,initial-scale=1" />
+   <title>Official Acar</title>
+   <!--Fav icon icn yeri-->
+   <link rel="icon" href="images/New_Acar-removebg.png" type="image/x-icon" />
+   <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+   <!--Yükleme ekranı-->
+   <div id="loading">
+      <img src="images/yüklemeekranı.gif" alt="Yükleniyor..." />
+   </div>
+
+   <!--Kendi logomun oldu yer-->
+   <div style="text-align: center" id="bulazım">
+      <img src="images/New_Acar-removebg.png" alt="Official Acar" class="logo" />
+
+      <h1>Welcome to My Personal Website</h1>
+
+      <br /><br />
+      <!--Sayfa linkleri-->
+      <ul>
+         <li><a href="#benkimim">Who Am I ? </a></li>
+         <li><a href="#projelerim">My Projects</a></li>
+         <li><a href="#sosyalmedya">Contact</a></li>
+      </ul>
+   </div>
+
+   <!--Ben Kimim bölümü-->
+
+   <div id="benkimim" style="margin: auto">
+      <p>
+         Hello everyone, welcome to my personal site, you can find everything about me
+         here. I'm Acar, I'm 15 years old, I want to be a Junior Full Stack Developer
+         and I'm progressing in this field, now I've learned HTML and CSS. I'm almost
+         done with CSS. I've just finished 90% and I have two certificates so far. you
+         can see at the bottom.
+      </p>
+   </div>
+   <!--Sertifikaların oldugu yer-->
+   <br /><br /><br />
+
+   <div style="display: flex; justify-content: center; gap: 30px">
+      <img src="images/sertifika1.png" alt="" class="sertifika" />
+      <img src="images/sertifika2.png" alt="" class="sertifika" />
+
+      <br /><br /><br />
+   </div>
+
+   <!--Acar gifi olduuğu yer-->
+   <div class="acargif">
+      <img src="images/banner.gif" alt="" />
+   </div>
+
+   <!--Projeleerim bölümü-->
+   <div id="projelerim" style="margin: auto">
+      <div style="display: flex; gap: 60px">
+         <img src="images/acarnetwork.png " alt="" style="display: block; margin: auto" class="logo" id="anyer" />
+
+         <br />
+         <br />
+
+         <p>
+            Welcome to my projects section, my biggest project is
+            <strong>ACAR NETWORK</strong>. I want to bring this name to a higher
+            holding company, first of all, by making it an environment where they can
+            ask questions that support the developers in terms of discord server, I
+            also share content that will entertain people with Instagram useful
+            content, and I want to enlarge it as much as possible. life.
+         </p>
+      </div>
+
+      <br /><br />
+   </div>
+
+   <!--İletişim bölümü linkler-->
+   <h2>Contact</h2>
+   <div id="sosyalmedya">
+      <a href="https://www.facebook.com/Acarnetwork" target="_blank" style="float: left">
+         <i class="fa-brands fa-facebook"> </i></a>
+      <a href="https://www.instagram.com/acarnetwork_yazilim/" target="_blank" style="float: left"><i
+            class="fa-brands fa-instagram"></i></a>
+      <a href="https://discord.gg/VyVgSGUBgc " target="_blank" style="float: left">
+         <i class="fa-brands fa-discord"></i></a>
+      <a href="https://twitter.com/Acarnetwork" target="_blank" style="float: left"><i
+            class="fa-brands fa-twitter"></i></a>
+
+      <a href="https://www.youtube.com/channel/UCZ8qwzPvNqRDOlbQEiOEpjA" target="_blank" style="float: left"><i
+            class="fa-brands fa-youtube"></i></a>
+      <a href="https://github.com/Acar0642" target="_blank" style="float: left"><i class="fa-brands fa-github"></i></a>
+   </div>
+
+   <p class="mailto">
+      Mail:
+      <a href="mailto:" id="mail" <a>infoacarnetwork06@gmail.com </a>
+   </p>
+</body>
+<!--Yükleme Ekranı için-->
+<script src="https://kit.fontawesome.com/afcda29c2d.js" crossorigin="anonymous"></script>
+<script type="text/javascript">
+   let loading = document.getElementById("loading");
+
+   window.addEventListener("load", () => {
+      setTimeout(() => {
+         loading.remove();
+      }, 2000);
+   });
+</script>
+
+</html>
